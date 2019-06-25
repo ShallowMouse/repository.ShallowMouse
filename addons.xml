@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon
-    id="skin.test"
-    version="0.1"
-    name="test"
-    provider-name="Shallow Mouse">
+<addon id="skin.dight" name="Dight" provider-name="ShallowMouse" version="0.1">
     <requires>
-		<import addon="xbmc.gui" version="5.14.0" />
+        <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
 		<import addon="service.library.data.provider" version="0.1.0"/>
 		<import addon="script.skin.helper.service" version="0.0.1"/>
@@ -22,32 +18,28 @@
 		<import addon="script.skin.helper.colorpicker" version="1.0.11"/>
     </requires>
     <extension
-    point="xbmc.gui.skin"
-    defaultthemename="Textures.xbt"
-    debugging="false"
-    effectslowdown="1">
-        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	debugging="false" 
+	defaultthemename="Textures.xbt"
+	effectslowdown="1"
+	point="xbmc.gui.skin">
+    <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
-        <description lang="en">Arctic: Zephyr is the third iteration of the Arctic skin created by jurialmunkey. Arctic focuses on being simple, clean and minimalistic with a light spin.</description>
+        <summary lang="en_AU">Clean, minimal, elegant, simple, light.</summary>
+        <summary lang="en_US">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">This skin is a modification of Arctic Zephyr 2, created by jurialmunkey.</description>
         <platform>all</platform>
-        <license>Creative Commons Non Commercial 3.0 License</license>
-        <forum>http://forum.kodi.tv/forumdisplay.php?fid=221</forum>
+        <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+        <forum />
         <source>https://github.com/jurialmunkey/skin.arctic.zephyr</source>
         <assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<screenshot>resources/screenshot-04.jpg</screenshot>
-			<screenshot>resources/screenshot-05.jpg</screenshot>
-			<screenshot>resources/screenshot-06.jpg</screenshot>
-			<screenshot>resources/screenshot-07.jpg</screenshot>
-			<screenshot>resources/screenshot-08.jpg</screenshot>
-			<screenshot>resources/screenshot-09.jpg</screenshot>
-		</assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpgx</screenshot>
+
+        </assets>
     </extension>
 </addon>
+
 </addons>
