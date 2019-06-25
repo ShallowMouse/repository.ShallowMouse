@@ -41,7 +41,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="skin.dightbeta" name="Dight-Beta" provider-name="ShallowMouse" version="0.0>
+<addon id="skin.dightbeta" name="Dight-Beta" provider-name="ShallowMouse" version="0.0">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -67,7 +67,9 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
-        <description lang="en">Beta version of Dight skin, for Kodi.</description>
+        <summary lang="en_AU">Clean, minimal, elegant, simple, light.</summary>
+        <summary lang="en_US">Clean, minimal, elegant, simple, light.</summary>
+        <description lang="en">This skin is a modification of Arctic Zephyr 2, created by jurialmunkey.</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum />
