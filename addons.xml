@@ -41,7 +41,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="skin.dight" name="Dight-Beta" provider-name="ShallowMouse" version="Beta">
+<addon id="skin.dight" name="Dight-Beta" provider-name="ShallowMouse" version="0.0>
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
